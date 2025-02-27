@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Birthday gift For Quinnsha Thara Diva">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="HiCay.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <audio id="background-music" loop>
+        <source src="audio/videoplayback (3).m4a" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+    
+    <main class="container">
+        <h1 class="fade-in">Happy Birthday, Cay! 🎂</h1>
+        
+        <h2 class="fade-in delay" style="font-size:25px; font-weight: bold; text-align: center;">
+            Wishing you a wonderful birthday! <br> 
+            May this year be as amazing and beautiful as you are! ✨
+        </h2>
+ 
+        <p class="fade-in delay-2">
+            Halo cayy, Selamat ulang tahun yaa. Aku mau kasih hadiah kecil ini and I hope you like it ❤️<br>
+            Btw udah masuk semester 2 nih wkwkwk. Semangat terus yaa kuliahnya! Jangan khawatir, semester ini gak bakal se-hectic itu kok. Keep learning and keep growing ya cayy. I know you’re gonna do amazing things.
+        </p>
+
+        <!-- Fitur Lilin Ulang Tahun -->
+        <section class="candle-container, fade-in delay-2">
+            <p class="fade-in delay" style="font-size: 25px; font-weight: bold; text-align: center;">Make a wish first! 🕯️</p>
+            <div class="candle" id="candle"></div> 
+            <button id="blowCandle">Tiup</button>
+            <p id="wishMessage" class="hidden">I hope all your wishes come true, Cay! ✨</p>
+        </section>
+        <br>
+        <button id="openGift" class="fade-in delay-3">Pencet Akuu! 🎁</button>
+        
+        <div id="giftBox" class="hidden">
+            <img src="pictures/WhatsApp Image 2025-02-18 at 19.30.45_8d086682.jpg" alt="Hadiah Spesial" class="gift-img">
+            <p class="fade-in">I made a hand-drawn picture of you🎨<br> Maaf yaa wajah kamu ga ku gambar😖</p>
+        </div>
+        
+        <section class="spotify-container fade-in delay-4">
+            <h2>I also made a playlist for you.</h2>
+            <iframe 
+                style="border-radius:12px" 
+                src="https://open.spotify.com/embed/playlist/3grzFlNd2Ozu0voSFZnUrm?utm_source=generator" 
+                width="100%" 
+                height="352" 
+                frameborder="0" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
